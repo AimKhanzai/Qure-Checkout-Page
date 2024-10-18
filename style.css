@@ -1,0 +1,525 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* <!--Top Headline  --> */
+.topheadline {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+.topheadspan2 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.topheadspan1 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.topheaddp {
+  display: none;
+}
+.topheaddp1 {
+  display: block;
+}
+
+/* <!--Navbar --> */
+.navbg {
+  background: #000000;
+  padding: 1rem 10rem;
+}
+.navcontacttext {
+  font-size: 14px;
+  font-weight: 600;
+}
+.contactpara {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/*<!-- Main Content-->  */
+.mycolborder {
+  border: 1px solid #cbcbcb;
+}
+.mainrowpad {
+  padding: 1.5rem;
+}
+.limitedstockmainbox {
+  background: #faf8f8;
+  border-radius: 5px;
+}
+.mycolborderpad {
+  padding: 1.5rem;
+}
+.limitedstockbox {
+  background: #cb0000;
+  border-radius: 25px;
+  padding: 2px 11px;
+}
+.mobdp {
+  display: none;
+}
+
+.limitedstocktext {
+  font-size: 13px;
+  font-style: italic;
+  line-height: 14px;
+  letter-spacing: 0.14001615345478058px;
+}
+.carttext {
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+.timelimit {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #c92127;
+}
+.pricedurationbox {
+  display: none;
+}
+.pricedurdp {
+  display: block;
+}
+.popularbox {
+  background: #000000;
+  border-radius: 25px;
+  width: 23%;
+}
+.populartext {
+  font-size: 10px;
+  letter-spacing: 0.01em;
+}
+.supply {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 13.97px;
+  letter-spacing: 0.01em;
+}
+.enoughtext {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+}
+.wasprice {
+  font-size: 16.12px;
+  line-height: 16.12px;
+  letter-spacing: 0.24183674156665802px;
+  color: #0000004d;
+  text-decoration: line-through;
+}
+.nowprice {
+  font-size: 14.51px;
+  line-height: 14.51px;
+  letter-spacing: 0.24183674156665802px;
+}
+.saveprice {
+  font-size: 9px;
+  line-height: 12px;
+}
+.serumimg {
+  width: 115px;
+}
+.savetextbox {
+  background: #008763;
+  border-radius: 25px;
+}
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+.mainbox {
+  background: #c7e7dc80;
+  border: 1px solid #008763;
+  border-radius: 4px;
+  padding: 13px 15px 13px 15px;
+}
+.boxborderbg {
+  border: 1px solid #cbcbcb;
+}
+.listitem {
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  list-style: none;
+  opacity: 0.8;
+}
+.listbg {
+  background: #faf8f8;
+  padding: 25px 19px 25px 19px;
+}
+.myinput {
+  /* width: 475px; */
+  height: 45px;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #cbcbcb;
+}
+.myinput::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.30000001192092896px;
+  color: #4e4e4e;
+  padding-left: 25px;
+}
+.pricetext {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 13.97px;
+  letter-spacing: 0.01em;
+}
+.chkbox {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #cbcbcb;
+  border-radius: 4px;
+}
+input[type="checkbox"] {
+  border-color: #cbcbcb;
+}
+.billinghead {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+}
+.billingtext {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+}
+.chktext {
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+.datecvvinput {
+  /* width: 213px; */
+}
+.paybtn {
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  border: 1px solid #cbcbcb;
+}
+.payimg {
+  top: 22%;
+  left: 8%;
+}
+.widthpayinput {
+  height: 45px;
+}
+.paybox {
+  padding: 0 40px;
+  border: 1px solid #cbcbcb;
+  padding: 13px 15px 13px 15px;
+  border-radius: 4px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.moneybackbg {
+  background: #f2f2f2;
+}
+.moneybackhead {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+.moneybacktext {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+}
+.revsechead {
+  font-family: Canela Web;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.userrevname {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.revhead {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+}
+.countryname {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #000000cc;
+}
+.verifytext {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #008763;
+}
+.revpara {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.mycardbody {
+  border: 1px solid #c7e7dc;
+  box-shadow: 0px 5px 15px 0px #b0b0b040;
+  border-radius: 0px 0px 8px 8px;
+}
+.revpad1 {
+  padding-bottom: 2rem;
+}
+.revpad2 {
+  padding-bottom: 3rem;
+}
+.slick-initialized .slick-slide {
+  padding: 0 12px;
+}
+.slick-dots li button:before {
+  font-size: 13px;
+}
+.slick-dots {
+  bottom: -40px;
+}
+
+.footbg {
+  background: #000000;
+  padding: 5rem 7rem 1rem 7rem;
+}
+.footbrands {
+  padding: 0 5rem;
+  margin-bottom: 6rem;
+}
+.mainfootcontent {
+  padding: 5rem 0 1rem 0;
+}
+.queshead {
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.quesheadpara {
+  color: #ffffffcc;
+  font-size: 16px;
+  font-weight: 400;
+}
+.livechat {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+.footcontacticons {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.livechattext {
+  color: #ffffffcc;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footlastpart {
+  padding: 1.5rem 3rem 0.7rem;
+}
+.footlastdisc {
+  padding: 0 5rem;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.copyright {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.termsandprivacytext {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  letter-spacing: 0.20000000298023224px;
+  color: #ffffff;
+}
+.payhr {
+  /* width: 439px; */
+}
+.credithead {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 13.97px;
+  letter-spacing: 0.01em;
+}
+.chkbox2 {
+  width: 21px;
+  height: 21px;
+  background: #c7e7dc;
+}
+.purchasebtn {
+  padding: 20px 10px 20px 10px;
+  border-radius: 4px;
+  background: #f9d84c;
+  box-shadow: 0px 0px 4px 0px #00000026;
+  text-decoration: none;
+  color: #000000;
+  width: 100%;
+}
+.purchasebtnhead {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.purchasebtntext {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 7px;
+}
+.termstext {
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #4e4e4e;
+}
+.termstext a {
+  color: #4e4e4e;
+}
+.termstextbox {
+  padding: 0px 100px;
+}
+.paylogobox {
+  width: 100%;
+}
+.purchasebtnbox {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .topheaddp {
+    display: block;
+  }
+  .topheaddp1 {
+    display: none;
+  }
+  .navbg {
+    background: #000000;
+    padding: 1.3rem 1rem;
+  }
+  .mobcontactbox {
+    padding-left: 3rem;
+  }
+  .contactpara {
+    text-align: center;
+  }
+  .mainrowpad {
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 7rem;
+  }
+  .mycolborder {
+    border: none;
+  }
+  .mycolborderpad {
+    padding: 0;
+  }
+  .headingbox {
+    padding-right: 1rem;
+  }
+  .popularbox {
+    width: 34%;
+  }
+  .pricedurationbox {
+    display: block;
+  }
+  .pricedurdp {
+    display: none;
+  }
+  .mobdp {
+    display: block;
+  }
+  .purchasebtntext {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 5px;
+  }
+  .termstextbox {
+    padding: 0px 30px;
+  }
+  .guaranteeimg {
+    position: absolute;
+  }
+  .guaranteemobmar {
+    margin-top: 10rem;
+    text-align: center;
+  }
+  .moneybacktext {
+    font-size: 13px;
+  }
+  .revmobsechead {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+  }
+}
+
+
+@media (min-width: 1920px){
+    .revpadex2{
+        padding-bottom: 2rem;
+    }
+    .revpad2{
+        padding-bottom: 2rem;
+    }
+    .navbg {
+        padding: 1rem 0rem;
+        justify-content: space-around !important;
+      }
+      .revpad1 {
+        padding-bottom: 1rem;
+      }
+}
+
+@media (min-width: 1921px) and (max-width: 2731px){
+    .navbg {
+        padding: 1rem 0rem;
+        justify-content: space-evenly !important;
+      }
+      .revpad1 {
+        padding-bottom: 1rem;
+      }
+      .revpadex2 {
+        padding-bottom: 2rem;
+      }
+}
+@media (min-width: 1367px) and (max-width: 1440px){
+      .revpad1 {
+        padding-bottom: 1rem;
+      }
+      .revpad2 {
+        padding-bottom: 2rem;
+      }
+}
